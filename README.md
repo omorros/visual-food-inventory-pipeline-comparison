@@ -26,43 +26,6 @@ imaging conditions on a 14-class dataset.
 | 2 | [food-cv-exp2-pipeline-evaluation](https://github.com/omorros/food-cv-exp2-pipeline-evaluation) | Compares a VLM, YOLOv8 and YOLOv8+EfficientNetB0 pipeline across 4 image conditions on 120 test images to find the most accurate and robust approach |
 | 3 | [food-cv-exp3-mobile-deployment](https://github.com/omorros/food-cv-exp3-mobile-deployment) | Deploys the winning GPT-5.2 Vision pipeline into a full stack React Native + FastAPI app with draft review, inventory management and expiry prediction |
 
-## Tech Stack
-
-### Experiment 1 — CNN Classifier Selection
-| Category | Tools |
-|----------|-------|
-| ML Framework | TensorFlow / Keras |
-| Models | EfficientNetB0, ResNet-50, Custom CNN (ImageNet pretrained) |
-| Data & Evaluation | NumPy, Pandas, scikit-learn |
-| Visualization | Matplotlib |
-| Environment | Google Colab (Tesla T4 GPU) |
-
-### Experiment 2 — Pipeline Evaluation
-| Category | Tools |
-|----------|-------|
-| Object Detection | YOLOv8 (Ultralytics 8.3.57) |
-| VLM APIs | OpenAI GPT-5.2, Anthropic Claude Opus 4.6, Google Gemini 3.1 Pro |
-| CNN Classifier | TensorFlow / Keras (EfficientNetB0) |
-| Deep Learning | PyTorch + TorchVision |
-| Image Processing | Pillow, OpenCV |
-| Data & Evaluation | NumPy, Pandas, scikit-learn, Seaborn, Matplotlib |
-| Dataset Source | Roboflow Universe (42k images, 47 classes) |
-| Utilities | python-dotenv, Rich, structlog, PyYAML |
-| Environment | Google Colab (Tesla T4 GPU) |
-
-### Experiment 3 — Mobile Deployment (SnapShelf)
-| Category | Tools |
-|----------|-------|
-| Mobile | React Native 0.81, Expo SDK 54, TypeScript 5.9 |
-| Navigation & UI | Expo Router, Expo Haptics, Expo Linear Gradient, Ionicons |
-| Camera & Storage | Expo Image Picker, Expo Camera, Expo Secure Store |
-| Gestures | react-native-gesture-handler |
-| Backend | FastAPI, SQLAlchemy, Uvicorn |
-| Database | PostgreSQL (psycopg2) |
-| Auth | JWT (python-jose), bcrypt / passlib |
-| Vision API | OpenAI GPT-5.2 Vision |
-| Validation | Pydantic, email-validator |
-
 ## Key Findings
 
 - VLM pipeline achieved F1 = 0.900 vs YOLO-14's F1 = 0.603
