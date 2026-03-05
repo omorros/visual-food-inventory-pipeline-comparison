@@ -22,9 +22,9 @@ imaging conditions on a 14-class dataset.
 
 | # | Repository | Description |
 |---|-----------|-------------|
-| 1 | [food-cv-exp1-cnn-comparison](https://github.com/omorros/food-cv-exp1-cnn-comparison) | CNN classifier selection — EfficientNetB0 vs ResNet-50 vs Custom CNN |
-| 2 | [food-cv-exp2-pipeline-evaluation](https://github.com/omorros/food-cv-exp2-pipeline-evaluation) | 12-condition evaluation matrix comparing VLM, YOLOv8, and YOLOv8+CNN hybrid |
-| 3 | [food-cv-exp3-mobile-deployment](https://github.com/omorros/food-cv-exp3-mobile-deployment) | SnapShelf — React Native + Expo app deploying the VLM pipeline |
+| 1 | [food-cv-exp1-cnn-comparison](https://github.com/omorros/food-cv-exp1-cnn-comparison) | Benchmarks EfficientNetB0, ResNet-50 and a custom CNN on 120k food images to select the best classifier for downstream pipelines |
+| 2 | [food-cv-exp2-pipeline-evaluation](https://github.com/omorros/food-cv-exp2-pipeline-evaluation) | Compares a VLM, YOLOv8 and YOLOv8+EfficientNetB0 pipeline across 4 image conditions on 120 test images to find the most accurate and robust approach |
+| 3 | [food-cv-exp3-mobile-deployment](https://github.com/omorros/food-cv-exp3-mobile-deployment) | Deploys the winning GPT-5.2 Vision pipeline into a full stack React Native + FastAPI app with draft review, inventory management and expiry prediction |
 
 ## Tech Stack
 
