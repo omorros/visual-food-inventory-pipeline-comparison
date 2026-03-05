@@ -12,7 +12,7 @@ imaging conditions on a 14-class dataset.
 | # | Repository | Description |
 |---|-----------|-------------|
 | 1 | [food-cv-exp1-cnn-comparison](https://github.com/omorros/food-cv-exp1-cnn-comparison) | CNN classifier selection — EfficientNetB0 vs ResNet-50 vs Custom CNN |
-| 2 | [food-cv-exp2-pipeline-evaluation](https://github.com/omorros/food-cv-exp2-pipeline-evaluation) | 12-condition evaluation matrix comparing VLM, YOLO-14, and YOLO+CNN hybrid |
+| 2 | [food-cv-exp2-pipeline-evaluation](...) | 12-condition evaluation matrix comparing VLM, YOLOv8, and YOLOv8+CNN hybrid |
 | 3 | [food-cv-exp3-mobile-deployment](https://github.com/omorros/food-cv-exp3-mobile-deployment) | SnapShelf — React Native + Expo app deploying the VLM pipeline |
 
 ## Key Findings
